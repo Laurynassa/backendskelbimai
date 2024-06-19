@@ -1,6 +1,21 @@
 
 # SKELBIMAI WEB APP
 
+# USAGE AND INSTALLATION
+
+1. Clone the repository:
+
+- git clone https://github.com/Laurynassa/backendskelbimai.git
+- cd backendskelbimai
+
+1. Install dependencies:
+
+- npm i
+
+1. Run the application:
+
+- npm run server
+
 # OVERVIEW
 
 The Skelbimai Web App is a comprehensive platform designed to facilitate the posting and browsing of classified advertisements. The application aims to provide users with an intuitive and user-friendly interface to create, manage, and search for various types of listings, including but not limited to, job postings, real estate, services, and items for sale.
