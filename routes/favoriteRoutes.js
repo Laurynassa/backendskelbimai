@@ -12,7 +12,7 @@ const {
 // middleware:
 const { verifyToken } = require("../Middleware/authMiddleware");
 
-// @ /api/favorites/
+
 
 router.post("/ad/:id", verifyToken, createFavorite);
 router.delete("/ad/:id", verifyToken, deleteFavoriteByUserIdAndAdId);

@@ -27,7 +27,7 @@ const checkAdminRole = async (req, res, next) => {
     console.log("req.user:", req.user);
     console.log("Checking admin role of user:", req.user.id);
 
-    // Fetch the user from the database
+   
     const user = await User.findById(req.user.id);
     if (!user) {
       console.log("User not found");

@@ -60,7 +60,6 @@ class UserService {
     };
   }
 
-  // to do logout
   async logoutUser(userId) {
     return { message: "Logged out sucessfully" };
   }

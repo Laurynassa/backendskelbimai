@@ -8,10 +8,10 @@ const {
   deleteComment,
 } = require("../controllers/commentController");
 
-// middleware:
+
 const { verifyToken, checkAdminRole } = require("../Middleware/authMiddleware");
 
-// @ /api/comments/
+
 
 router.post("/ad/:id", verifyToken, createComment);
 router.get("/ad/:id", getCommentsByAdId);

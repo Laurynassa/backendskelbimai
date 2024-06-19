@@ -1,7 +1,3 @@
-/** @format */
-
-// controllers/adController.js
-
 const asyncHandler = require("express-async-handler");
 const adService = require("../services/adService");
 

@@ -40,7 +40,7 @@ class AdService {
   
     const favorites = await Favorite.find({ user_id: userId });
     const favoriteIds = favorites.map(favorite => favorite._id);
-    // mongoDB $in operator efficiently finds multiple values
+ 
     const ads = await Ad.find({ favorite_ids: { $in: favoriteIds } })
     .populate("category_id", "name");
 
